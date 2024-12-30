@@ -1,0 +1,189 @@
+<DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Planning Your Japan Itinerary</title>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./sumo.html">Sumo</a>
+        <a href="./shrines.html">Shrines</a>
+        <a href="./fuji.html">Mount Fuji</a>
+        <a href="./planning.html">Start Planning</a>
+    </nav>
+
+    <h1>Planning Your Japan Itinerary</h1>
+      <p>Japan offers so many things to see and do that it is essential to plan your trip to
+        help ensure you don't miss out on anything! Follow these steps to make a plan that 
+        keeps you organized and on budget so you can get the most out of your trip.
+      </p>
+    <h2>How to Start Planning Your Trip</h2>
+      <p> 
+        <ol>
+            <li><strong>Set Your Budget:</strong> Determine how much you’re willing to spend. Japan can be pricey, 
+                but with careful planning, you can enjoy the country on a variety of budgets. 
+                Consider accommodation, food, transportation, and activities.</li><br></br>
+            <li><strong>Decide When to Go:</strong> Japan has four distinct seasons, each offering unique 
+                experiences. Spring is famous for cherry blossoms, summer for festivals, 
+                autumn for vibrant foliage, and winter for skiing and hot springs.</li><br></br>
+            <li><strong>Research Destinations:</strong> Japan is more than just Tokyo and Kyoto. 
+                Explore the countryside, visit smaller towns, and discover hidden gems. 
+                Decide if you want to focus on cultural experiences, nature, or a mix of both.</li><br></br>
+            <li><strong>Book Accommodation:</strong> Hotels, ryokan (traditional inns), and Airbnb options are plentiful. 
+                Booking in advance ensures better rates and availability, especially during peak seasons.</li><br></br>
+            <li><strong>Plan Transportation:</strong> Japan’s public transportation is efficient and reliable. Consider 
+                purchasing a <a href="https://www.jrailpass.com/" target="_blank">Japan Rail Pass</a> if you plan on 
+                traveling long distances. Local trains, buses, and taxis are also convenient for getting around.</li><br></br>
+        </ol>
+        </p>
+    <h2>Example Itinerary</h2>
+      <table>
+        <thead>
+            <tr>
+                <th scope="col">Day</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Activities</th> 
+                <th scope="col">Accomodation</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Asakusa</td>
+            <td>Senso-Ji Shrine, Kappabashi Street</td>
+            <td>Hotel WBF</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Akihabara</td>
+            <td>Sega Arcade, Maid Cafe</td>
+            <td>Hotel WBF</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mount Fuji</td>
+            <td>Chureito Pagoda, Fujiyoshida Sengen Shrine, 
+            Hiking Lake Kawaguchi</td>
+            <td>Ryokan</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Kyoto</td>
+            <td>Fushimi Inari Shrine, Gion Streets, 
+            Tenryu-ji Temple</td>
+            <td>Capsule Hotel</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Tokyo</td>
+            <td>Sumo Tournament, Kosugi-Yu Onsen</td>
+            <td>Dormy Inn</td>
+        </tr>    
+        </tbody>
+      </table>
+    <br>
+    <h2>Need Help Getting Started?</h2>
+    <p>Fill out our form below and we'll send you an itinerary outline that you can build on!</p>
+
+    <form action="submission.html" method="POST">
+        <h1>Plan Your Trip!</h1>
+        <section class="name">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+        </section>
+        <hr>
+
+        <section class="email">
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" required>
+        </section>
+        <hr>
+
+       <section class="number">
+            <label for="number">Number of Traverlers</label>
+            <input type="number" id="number" name="number" required min="1" max="8">
+       </section> 
+       <hr>
+
+       <section class="budget">
+            <label for="budget">What is Your Budget Range?</label>
+            <br>
+            <span>Shoestring Budget</span>
+            <input type="range" name="budget" id="budget" 
+            value="3" min="1" max="5">
+            <span>Spare No Expense</span>
+        </section>
+        <hr>
+
+        <section class="destination">
+            <span>Which Cities Would You Like to Focus On?</span>
+            <br>
+            <label for="tokyo">Tokyo</label>
+            <input type="checkbox" id="tokyo" name="destination" 
+            value="tokyo">
+            <label for="osaka">Osaka</label>
+            <input type="checkbox" id="osaka" name="destination"
+            value="osaka">
+            <label for="kyoto">Kyoto</label>
+            <input type="checkbox" id="kyoto" name="destination"
+            value="kyoto">
+            <label for="other">Other</label>
+            <input type="checkbox" id="other" name="destination"
+            value="other">
+        </section>
+        <hr>
+
+        <section class="driving">
+            <span>Are You Renting a Car?</span>
+            <br>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="driving"
+            value="yes">
+            <label for="no">No</label>
+            <input type="radio" id="no" name="driving"
+            value="no">
+        </section>
+        <hr>
+
+        <section class="season">
+            <label for="season">Preferred Season</label>
+            <select name="season" id="season">
+                <option value="spring">Spring</option>
+                <option value="summer">Summer</option>
+                <option value="fall">Fall</option>
+                <option value="winter">Winter</option>
+            </select>
+        </section>
+        <hr>
+
+        <section class="accomodation">
+            <label for="accomodation">What Type of Accomodation Do You Prefer?</label>
+            <input list="accomodation" id="accomodation" name="accomodation" rquired pattern="[a-zA-Z0-9]+">
+            <datalist id="accomodation">
+                <option value="Hotels"></option>
+                <option value="Ryokans"></option>
+                <option value="Airbnbs"></option>
+                <option value="Hostels"></option>
+                <option value="Capsule"></option>
+            </datalist>
+        </section>
+        <hr>
+
+        <section class="additional-info">
+            <label for="info">Anything Else We Should Know?</label>
+            <br>
+            <textarea id="info" name="info" rows="5" cols="50" maxlength="200"></textarea>
+        </section>
+        <hr>
+
+        <section class="submit">
+            <input type="submit" value="Submit">
+        </section>
+
+    </form>
+
+</body>
+</html>
