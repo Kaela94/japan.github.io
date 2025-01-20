@@ -15,16 +15,15 @@ body {
 #banner {
     background-image: url(photos/japan_hero.jpg);
     background-size: cover;
-    background-position: bottom center;
+    background-position: center;
     height: 600px;
     width: 100%;
-    opacity: 50%;
 }
 
 h1 {
-    color: #22b2ea !important;
-    font-size: 2em;
-    padding-top: 100px;
+    color: white;
+    font-size: 5em;
+    padding-top: 300px;
     width: 100%;
     font-family: Georgia;
     text-align: center;
