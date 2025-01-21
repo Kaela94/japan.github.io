@@ -39,7 +39,7 @@ h2 {
 }
 
 h3 {
-    color: #42445a;
+    color: #0188b8;
     font-family: Georgia;
     font-weight: 100;
     padding-bottom: 10px;
@@ -50,4 +50,18 @@ h3 {
 .intro {
     text-align:center;
     margin-top: 5%;
+}
+
+.button {
+    background: #0188b8;
+    border: 2px solid #0188b8;
+    border-radius: 4px;
+    color: white;
+    display:inline-block;
+}
+
+.button:hover {
+    background: white;
+    border: 2px solid #0188b8;
+    color: #0188b8;
 }
