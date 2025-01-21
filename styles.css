@@ -20,6 +20,30 @@ body {
     width: 100%;
 }
 
+#bannerA {
+    background-image: url(photos/sumo_hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+#bannerB {
+    background-image: url(Photos/shrine_hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
+#bannerC {
+    background-image: url(Photos/fuji_hero.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
+
 h1 {
     color: white;
     font-size: 5em;
